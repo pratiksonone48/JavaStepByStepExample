@@ -18,6 +18,10 @@ public class GetTitle
 		driver.manage().window().maximize();
 		driver.get("https://www.flipkart.com/");
 		
+		System.out.println("pratik");
+		
+		System.out.println("never");
+		
 		
 		//Implicit Wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
