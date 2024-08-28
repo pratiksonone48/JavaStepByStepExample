@@ -26,6 +26,9 @@ public class GetTitle
 		//Explicit Wait
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 		
+		
+		System.out.println("print");
+		
 		System.out.println(driver.getTitle());
 		driver.quit();
 		
